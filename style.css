@@ -1,0 +1,71 @@
+html, body{
+    height: 100%;
+    background-color: aliceblue;
+}
+
+.calculadora{
+    width: 50%;
+    padding: 4em;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+
+}
+
+.calculadora input{
+    border-radius: 3px;
+    margin-left: 10px;
+    padding: 3px 7px;
+}
+
+.form-group{
+    padding: 1em;
+}
+
+.peso{
+    margin-left: 7px;
+}
+
+.resultado{
+    padding: .7em;
+    margin-top: 2em;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #000;
+}
+
+#botaoLimpar{
+    margin-top: 2em;
+}
+
+.hide{
+    display: none;
+}
+
+/* /// Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+   
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+   
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+   
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
+
+
